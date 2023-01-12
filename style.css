@@ -1,0 +1,184 @@
+h1,
+h2,
+h3,
+form {
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+
+}
+
+h1,
+h3,
+h2 {
+    text-align: center;
+
+}
+
+
+
+h2 {
+    padding-top: 20px;
+}
+
+h1 {
+    border-bottom: 2px black solid;
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 600px;
+
+
+}
+
+.gender {
+    padding: 20px;
+}
+
+.gender-question {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+section label {
+
+    padding-left: 30px;
+    text-align: center;
+
+}
+
+#children {
+    width: 20%;
+
+
+}
+
+.kids-age {
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+button {
+    position: absolute;
+    bottom: 22%;
+    left: 45%;
+    height: 100px;
+    width: 150px;
+    border-radius: 30%;
+    font-size: larger;
+    color: white;
+    background-color: black;
+}
+
+
+.help {
+    font-size: large;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+/* code below is for the footer and the anchors */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+
+
+
+
+}
+
+li {
+    list-style: none;
+    border: 1px black solid;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+nav i {
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.facebook {
+    border: 1px black solid;
+    border-radius: 44%;
+    padding: 20px;
+    background-color: rgb(0, 76, 255);
+}
+
+.twitter {
+    border: 1px black solid;
+    border-radius: 44%;
+    padding: 20px;
+    background-color: rgb(0, 204, 255);
+}
+
+.instagram {
+
+    border: 1px black solid;
+    border-radius: 44%;
+    padding: 20px;
+    background-color: rgb(255, 0, 140);
+}
+
+footer nav ul {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-bottom: 30px;
+
+
+
+}
+
+footer {
+    border-top: black 5px solid;
+    background-color: bisque;
+    position: fixed;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+
+
+}
